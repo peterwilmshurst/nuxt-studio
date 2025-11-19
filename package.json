@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-studio-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.8.2",
+    "better-sqlite3": "^12.4.1",
+    "nuxt": "^4.0.0",
+    "nuxt-studio": "^1.0.0-alpha.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vue-tsc": "^2.1.10"
+  }
+}
